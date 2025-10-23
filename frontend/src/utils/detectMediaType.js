@@ -32,3 +32,12 @@ export default  function detectMediaType(url, fileType = null) {
 
   return "unsupported";
 }
+
+
+
+
+
+
+
+
+
