@@ -116,7 +116,23 @@ const VolumeMixer = ({ players, onVolumeChange }) => {
         }
         break;
 
+<<<<<<< Updated upstream
     
+=======
+      case "spotify":
+        // Use Web API to set volume, iframe is just for display
+        const token = localStorage.getItem("spotifyAccessToken");
+        if (token) {
+          import("../utils/spotify").then(({ setSpotifyVolume }) => {
+            setSpotifyVolume(vol, token).catch(() => {
+              console.warn("Failed to set Spotify volume via API");
+            });
+          });
+        } else {
+          console.warn("No Spotify token found — volume not available.");
+        }
+        break;
+>>>>>>> Stashed changes
 
       default:
         console.warn("Volume control not implemented for type:", type);
