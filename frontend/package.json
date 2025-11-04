@@ -12,8 +12,12 @@
   "dependencies": {
     "react": "^19.1.1",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.4"
+=======
+    "react-dom": "^19.1.1"
+>>>>>>> Stashed changes
 =======
     "react-dom": "^19.1.1"
 >>>>>>> Stashed changes
@@ -24,7 +28,10 @@
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.4",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "autoprefixer": "^10.4.21",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "eslint": "^9.36.0",
@@ -32,8 +39,11 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.16",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     "vite": "npm:rolldown-vite@7.1.14"

@@ -117,8 +117,11 @@ const VolumeMixer = ({ players, onVolumeChange }) => {
         break;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
 =======
+=======
+>>>>>>> Stashed changes
       case "spotify":
         // Use Web API to set volume, iframe is just for display
         const token = localStorage.getItem("spotifyAccessToken");
@@ -132,6 +135,9 @@ const VolumeMixer = ({ players, onVolumeChange }) => {
           console.warn("No Spotify token found — volume not available.");
         }
         break;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
       default:
