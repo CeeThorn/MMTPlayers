@@ -118,8 +118,11 @@ const VolumeMixer = ({ players, onVolumeChange }) => {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       case "spotify":
@@ -136,6 +139,9 @@ const VolumeMixer = ({ players, onVolumeChange }) => {
         }
         break;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
